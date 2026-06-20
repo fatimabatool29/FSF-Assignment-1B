@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #F8FAFC;
+    color:#0F172A
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-color: white;
+  }
+  .logo h1 {
+    color: #06B6D4;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  .menu a{
+    color: #0F172A;
+    text-decoration: none;
+  }
+  .menu a:hover {
+    color: #06B6D4;
+  }
+  .hero {
+    text-align: center;
+    padding: 120px 20px;
+  }
+  .hero h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+    color: #0F172A;
+  }
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #64748b;
+  }
+    .hero button {
+        padding: 15px 30px;
+        font-size: 18px;
+        color: white;
+        background-color: #06B6D4;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    .features {
+        display: flex;
+        justify-content: space-around;
+        padding: 80px 20px;
+    }
+    .feature {
+        background-color: #1E293B;
+        padding: 30px;
+        border-radius: 10px;
+        width: 30%;
+        text-align: center;
+    }
+    .feature h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    .feature p {
+        font-size: 16px;
+        color: #64748b;
+    }
+    .card {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 14px;
+        border: 1px solid #e2e8f0;
+    }
+    .card:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .card h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: #06b6d4;
+    }
+    .card p {
+        font-size: 14px;
+        color: #64748b;
+     }
+    
+.ebook{
+    display: flex;
+     align-items:center;
+     gap: 30px;
+     padding:80px;
+     background:whitesmoke
+}
+.ebook-image img{
+    width: 378px;
+    border-radius: 12px;
+}
+.ebook-content{
+    font-size: 42px;
+    color: #0f172a;
+}
+.ebook-content h2{
+    color: #06B6D4;
+    font-size: 50px;
+}
+.ebook-content p{
+    font-size: 35px;
+    color: black;
+}
+.info-section{
+    padding: 60px 80px;
+}
+.benefits h2{
+    margin-bottom: 22px;
+    color: #06b6d4;
+}
+.benefits ul{
+    line-height:  2.3;
+    color: #475569;
+}
+.form-box{
+    background-color: #0F172A;
+    border-radius: 15px;
+    padding: 35px;
+    max-width: 500px;
+    
+}
+.form-box h2{
+    color: white;
+
+}
+.form-box form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+.form-box input{
+    padding:14px;
+    border:none;
+    border-radius:8px;
+}
+.form-box button{
+    background:#06B6D4;
+    color:white;
+    border:none;
+     padding:14px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.form-box button:hover{
+    background:#22D3EE;
+}
+footer{
+    text-align:center;
+    padding:30px;
+    color:#64748B;
+}
